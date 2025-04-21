@@ -80,7 +80,7 @@ docker run -it --net=host --gpus all \
 
 - Converts `best.pt → best.onnx → best.engine`
 - Runs YOLOv5 inference using TensorRT (if available) or ONNX
-- Publishes overlayed image with bounding boxes
+- Publishes an overlayed image with bounding boxes
 
 ---
 
